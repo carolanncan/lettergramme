@@ -129,6 +129,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.7)
   middleman-livereload
+  sass
   slim
   tzinfo-data
   wdm (~> 0.1.0)

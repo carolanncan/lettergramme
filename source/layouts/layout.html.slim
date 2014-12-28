@@ -2,9 +2,14 @@ doctype html
 html
   head
     meta charset="utf-8"
-    title
-      = current_page.data.title || "The Middleman"
+    title = current_page.data.title || "The Middleman"
+
+    link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'
+
+    link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'
+
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "all"
+
   body.page_classes
     = yield

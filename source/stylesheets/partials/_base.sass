@@ -1,0 +1,35 @@
+body
+  background: $body-color
+  color: $gray
+  font-family: $serif
+  font-size: 16px
+
+p
+  font-family: $sans
+  font-size: 1.2em
+  font-weight: 400
+
+.outer-container
+  max-width: 68%
+  margin: 0 auto
+
+.pop-in
+  -webkit-animation-name: pop-in
+  -webkit-animation-duration: .9s
+
+@-webkit-keyframes pop-in
+  from
+    -webkit-transform: scale(0)
+    opacity: 0
+
+  50%
+    -webkit-transform: scale(0)
+    opacity: 0
+
+  82.5%
+    -webkit-transform: scale(1.03)
+    -webkit-animation-timing-function: ease-out
+    opacity: 1
+
+  to
+    -webkit-transform: scale(1)

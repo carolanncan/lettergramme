@@ -1,8 +1,24 @@
 ---
-title: Welcome to Middleman
+title: Lettergramme
 ---
 
-.welcome
-  h1 Middleman is Watching
-  p.doc
-    = link_to "Read Online Documentation", "http://middlemanapp.com/"
+= partial 'partials/header'
+
+section.intro
+  .outer-container
+    h3.section-title
+      | Type your letter in an email and send it to
+    button.email-address outgoing&#64;lettergram.me
+    p Include the recipient's address and the return address at the bottom of
+      the email. We'll take care of the postage and getting it to the post
+      office!
+
+section.details
+  .outer-container
+    .envelope
+      .arrow-down
+    p I'll type the letter on my typewriter. Why a typewriter? It has a more
+      personal effect than a digitally printed letter. Why not handwrite the
+      letter? Because sending a letter to someone that is in handwriting, but not
+      your own handwriting, is creepy.
+
