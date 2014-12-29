@@ -1,6 +1,5 @@
 .main-heading
   background: $white
-  border-bottom: 1px solid $light-brown
   font-family: $serif
   padding: 9rem 0
   text-align: center
@@ -12,8 +11,29 @@
   text-align: center
 
 .subtitle
+  border-bottom: 1px solid $medium-brown
+  padding-bottom: 5rem
+  margin-bottom: 5rem
   font-style: italic
   font-weight: 400
+
+.email-address
+  background: $white
+  border: none
+  border-width: 0 0 1px 0
+  border-bottom: 1px solid $light-brown
+  color: $gray
+  font-weight: 700
+  outline: none
+  padding: .5rem
+  margin: 0 .5rem
+  transition: border .5s ease-in-out
+  transition: all .5s ease-in-out
+
+  &:hover
+    color: $gray
+    background: $off-white
+    border-bottom: 1px solid $red
 
 .envelope
   background: $gray
@@ -30,16 +50,21 @@
   width: 0
 
 .section-title
+  font-weight: 400
   font-size: 1.5rem
   text-align: center
 
 .details
-  background: $gray
-  color: $light-gray
-  padding-left: 0
+  background: $off-white
+
+  ul
+    margin: 0
+    padding-left: 0
 
 .detail-body
-  border-right: 2px dashed $dark-gray
+  border-bottom: 1px solid $medium-brown
+  border-right: 1px solid $medium-brown
+  border-top: 1px solid $medium-brown
   display: inline-block
   height: 300px
   padding: 2rem
@@ -51,25 +76,5 @@
     border-right: none
 
 .detail-text
-  padding: 1rem
+  padding: 2rem
   margin-top: 2rem
-
-.intro
-  background: lighten($off-white, 2)
-  padding: 3rem 0
-  text-align: center
-
-.email-address
-  background: $white
-  color: $gray
-  font-weight: 400
-  outline: none
-  border: none
-  padding: .5rem
-  margin: 0 .5rem
-  transition: border .5s ease-in-out
-  transition: all .5s ease-in-out
-
-  &:hover
-    color: $gray
-    background: $light-gray
