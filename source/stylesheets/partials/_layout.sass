@@ -2,8 +2,18 @@
   background: $white
   border-bottom: 1px solid $light-brown
   font-family: $serif
-  padding: 5em
+  padding: 9rem 0
   text-align: center
+
+.title
+  font-size: 5.5rem
+  font-weight: 700
+  margin-bottom: 0
+  text-align: center
+
+.subtitle
+  font-style: italic
+  font-weight: 400
 
 .envelope
   background: $gray
@@ -19,42 +29,47 @@
   margin: 0 auto
   width: 0
 
-.title
-  font-size: 5.5em
-  font-weight: 700
-  margin-bottom: 0
-  text-align: center
-
-.subtitle
-  // border-bottom: 1px solid $light-brown
-  font-style: italic
-  font-weight: 400
-  // padding-bottom: 3em
-
 .section-title
-  font-family: $sans
-  font-size: 1.5em
+  font-size: 1.5rem
   text-align: center
 
-section
-  padding: 5em 0
+.details
+  background: $gray
+  color: $light-gray
+  padding-left: 0
+
+.detail-body
+  border-right: 2px dashed $dark-gray
+  display: inline-block
+  height: 300px
+  padding: 2rem
+  vertical-align: top
+  text-align: center
+  width: 28.7%
+
+  &:last-child
+    border-right: none
+
+.detail-text
+  padding: 1rem
+  margin-top: 2rem
 
 .intro
+  background: lighten($off-white, 2)
+  padding: 3rem 0
   text-align: center
 
 .email-address
   background: $white
-  border: none
-  font-family: $serif
+  color: $gray
   font-weight: 400
   outline: none
-  padding: .75em
+  border: none
+  padding: .5rem
+  margin: 0 .5rem
   transition: border .5s ease-in-out
   transition: all .5s ease-in-out
 
   &:hover
-    color: $white
-    background: $gray
-
-.details
-  // background: $red
+    color: $gray
+    background: $light-gray
