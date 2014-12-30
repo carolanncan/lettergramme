@@ -1,8 +1,8 @@
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :relative_links, true
 
-# Build-specific configuration
 configure :build do
   activate :minify_css
   activate :minify_javascript
@@ -14,13 +14,5 @@ end
 configure :development do
   activate :livereload
 end
-#
-# Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+activate :automatic_image_sizes
