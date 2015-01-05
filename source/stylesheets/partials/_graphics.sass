@@ -1,26 +1,58 @@
 .envelope
-  background: $gray
+  border: 2px solid $gray
+  // background: darken($light-gray, 10)
   height: $envelope-height
-  margin: 0 auto
+  margin: 3rem auto 0
   width: $envelope-height * 2
 
 .arrow-down
   border-left: $envelope-height solid transparent
   border-right: $envelope-height solid transparent
-  border-top: $envelope-height * 0.75 solid $dark-gray
+  border-top: $envelope-height * 0.75 solid $gray
   height: 0
   margin: 0 auto
   width: 0
 
-.mailboxes, .typewriter, .postage
-  height: 250px
+.email, .mailboxes, .typewriter, .postage
+  background-repeat: no-repeat
+  background-position: top center
+  height: 300px
   width: auto
 
+.email
+  background-image: url(../images/email.svg)
+  background-size: 80%
+
 .mailboxes
-  background: url(../images/mailboxes.svg) no-repeat top center
+  background-image: url(../images/mailboxes.svg)
 
 .typewriter
-  background: url(../images/typewriter.svg) no-repeat top center
+  background-image: url(../images/typewriter.svg)
+  background-size: 76%
 
 .postage
-  background: url(../images/postage.svg) no-repeat top center
+  background-image: url(../images/postage.svg)
+  background-size: 90%
+
+.fade-in-heading
+  -webkit-animation-name: fade-in
+  -webkit-animation-duration: .9s
+
+.fade-in
+  -webkit-animation-name: fade-in
+  -webkit-animation-duration: 1.9s
+
+@-webkit-keyframes fade-in
+  0%
+    -webkit-transform: translateY(-20px)
+    opacity: 0
+
+  25%
+    opacity: 0
+
+  82.5%
+    -webkit-animation-timing-function: ease-in
+
+  100%
+    -webkit-transform: translateY(0px)
+    opacity: 1
