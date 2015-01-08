@@ -1,29 +1,49 @@
-.main-heading
-  background: $white
+.padded-heading
+  // background: $white
   font-family: $serif
   padding: 9rem 0
   text-align: center
 
+.dark
+  background: $base-accent-color
+  color: $darker-gray
+
+  a
+    %extend .button
+    border: 2px solid $darker-gray
+    color: $darker-gray
+    font-family: $sans
+    font-weight: 700
+    letter-spacing: 1px
+    margin: 0 .2rem
+    padding: .5rem
+    text-decoration: none
+    transition: all .5s ease-in-out
+
+.light
+  background: $white
+
 .title
   font-size: 5.5rem
-  font-weight: 700
+  font-weight: 500
   margin: 0 0 .7rem 0
   text-align: center
 
 .subtitle
-  border-bottom: 1px solid $gray
+  border-bottom: 1px solid $base-accent-color
   font-style: italic
   font-weight: 400
   margin: 0
   padding-bottom: 3rem
 
-.email-address
+.button
   background: $white
-  border-bottom: 1px solid darken($light-brown, 8)
-  border-width: 0 0 1px 0
-  border: none
+  border: 2px solid $gray
   color: $gray
+  font-family: $sans
+  font-size: 1.2rem
   font-weight: 700
+  letter-spacing: 1px
   margin: 0 .5rem
   outline: none
   padding: .5rem
@@ -32,6 +52,10 @@
   &:hover
     background: $off-white
     color: $gray
+
+.at-symbol
+  font-family: verdana
+  font-size: .95rem
 
 .section-title
   font-weight: 400
