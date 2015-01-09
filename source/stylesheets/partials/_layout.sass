@@ -1,24 +1,8 @@
 .padded-heading
-  // background: $white
-  font-family: $serif
-  padding: 9rem 0
-  text-align: center
+  padding: 9rem 0 4rem
 
-.dark
-  background: $base-accent-color
-  color: $darker-gray
-
-  a
-    %extend .button
-    border: 2px solid $darker-gray
-    color: $darker-gray
-    font-family: $sans
-    font-weight: 700
-    letter-spacing: 1px
-    margin: 0 .2rem
-    padding: .5rem
-    text-decoration: none
-    transition: all .5s ease-in-out
+.padded-section
+  padding: 4rem 0
 
 .light
   background: $white
@@ -30,7 +14,6 @@
   text-align: center
 
 .subtitle
-  border-bottom: 1px solid $base-accent-color
   font-style: italic
   font-weight: 400
   margin: 0
@@ -58,8 +41,8 @@
   font-size: .95rem
 
 .section-title
-  font-weight: 400
   font-size: 1.5rem
+  font-weight: 400
   text-align: center
 
 .descriptions
@@ -67,15 +50,12 @@
   padding-left: 0
 
 .description-body
-  border-bottom: 1px solid $gray
-  border-right: 1px solid $gray
-  border-top: 1px solid $gray
   display: inline-block
   height: 500px
   padding: 2rem
   vertical-align: top
   text-align: center
-  width: 28.7%
+  width: 28%
 
   &:last-child
     border-right: none
@@ -84,8 +64,32 @@
   padding: 2rem
 
 .description-title
-  font-family: $sans
-  font-size: 1.75rem
-  letter-spacing: 10px
+  font-family: $serif
+  font-size: 1.5rem
+  font-weight: 400
   margin: 0
-  text-transform: uppercase
+
+.cta
+  border-bottom: 2px solid $text-color
+  border-top: 2px solid $text-color
+  margin-bottom: 2rem
+  padding: 5rem 0
+
+.author
+  font-style: italic
+
+  a
+    %extend .button
+    border: 2px solid $darker-gray
+    color: $darker-gray
+    font-family: $sans
+    font-style: normal
+    font-weight: 700
+    letter-spacing: 1px
+    margin: 0 .2rem
+    padding: .5rem
+    text-decoration: none
+    transition: all .5s ease-in-out
+
+    &:hover
+      background: $white
