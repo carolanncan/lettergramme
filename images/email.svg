@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="laptop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-90 90 792 612" enable-background="new -90 90 792 612" xml:space="preserve">
+<g>
+	<rect x="-51.6" y="157.2" fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" width="715.4" height="519.2"/>
+	<rect x="-51.6" y="116.1" fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" width="715.4" height="41.1"/>
+	<circle fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" cx="-26.4" cy="136.5" r="7.8"/>
+	<circle fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" cx="0.7" cy="136.5" r="7.8"/>
+	<circle fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" cx="27.6" cy="136.5" r="7.8"/>
+	<g>
+		<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="333" x2="151.9" y2="333"/>
+		<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="533.1" x2="123.9" y2="533.1"/>
+		<g>
+			<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="389" x2="467.6" y2="389"/>
+			<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="420.6" x2="439.6" y2="420.6"/>
+			<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="452.2" x2="459.2" y2="452.2"/>
+			<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="2.1" y1="484.1" x2="439.6" y2="484.1"/>
+		</g>
+	</g>
+	<g>
+		<rect x="77.7" y="228.9" fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" width="510.2" height="19.6"/>
+		<rect x="77.7" y="191.6" fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" width="510.2" height="19.6"/>
+	</g>
+	<line fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" x1="-51.6" y1="282.6" x2="663.8" y2="282.6"/>
+	<path fill="#020202" d="M577.8,217.9"/>
+	<g>
+		<g>
+			<polygon fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" points="-6.3,217.7 23.7,209.3 17.5,233.1 
+				15,235 10,224.4 10,224.4 6.3,229.1 4.9,228.6 6.1,223.3 -6.3,220.2 			"/>
+			<polygon fill="#020202" points="4.9,228.6 6.1,223.3 23.7,209.3 10,224.4 			"/>
+		</g>
+		<path fill="none" stroke="#020202" stroke-width="3" stroke-miterlimit="10" d="M54.5,241.2c0,4.2-3.4,7.6-7.3,7.6h-71.6
+			c-3.9,0-7.3-3.4-7.3-7.6v-43.9c0-4.2,3.4-7.6,7.3-7.6h71.6c3.9,0,7.3,3.4,7.3,7.6V241.2z"/>
+	</g>
+</g>
+</svg>
