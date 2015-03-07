@@ -9,19 +9,28 @@
     li.description-body
       .typewriter
       article.description-text
-        h4.description-title We Type
+        h4.description-title I'll Type
         p Your letter and envelope will be typed on a real typewriter.
 
     li.description-body
       .postage
       article.description-text
-        h4.description-title We Post
+        h4.description-title I'll Post
         p We'll take care of the postage and getting it to the post office!
 
 section.padded-section
   .outer-container.cta
     h3.section-title Send your letter for free!
-    button.button
-      span outgoing
-      span.at-symbol &#64;
-      span lettergram.me
+    = link_to "mailto:carolanncan@gmail.com", class: "email", network: "gmail" do
+      button.button
+        span carolanncan
+        span.at-symbol &#64;
+        span gmail.com
+
+javascript:
+  var links = document.getElementsByClassName('social-link');
+    analytics.trackLink(links, 'Clicked Social Link', function(link){
+      return {
+        network: link.getAttribute('network')
+      };
+    });

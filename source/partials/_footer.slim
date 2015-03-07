@@ -2,4 +2,12 @@ footer
   section.padded-section
     p.author
       | by&nbsp;
-      = link_to "carolanncan", "twitter.com/carolanncan"
+      = link_to "carolanncan", "twitter.com/carolanncan", class: 'social-link', network: 'twitter'
+
+javascript:
+  var links = document.getElementsByClassName('social-link');
+    analytics.trackLink(links, 'Clicked Social Link', function(link){
+      return {
+        network: link.getAttribute('network')
+      };
+    });
